@@ -1,0 +1,505 @@
+/* The full web page - - - - - */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #0a0f1a; 
+  color: #e6e6e6;  /*Side Bar texts*/
+}
+
+/*Side Nav Bar - - - - - */
+
+/*Full Sidebar*/
+.Sidebar {
+  position: fixed;
+  height: 100%;
+  background: #12192b; 
+  font-weight: bolder;
+}
+
+/*Logo (Image)*/
+.side_logo img {
+  width: 175px;
+  padding: 5px;
+}
+
+/*Sidebar Navigation Links*/
+.side_links ul {
+  padding: 0px;
+}
+
+/* remove line and add font color to links */
+.side_links ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Spacing Sidebar Links */
+.side_links li {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+/* Hover effect for Sidebar links */
+.side_links li:hover{
+  background: #1a1f2e;
+  color: #1de9b6;
+  border-left: 5px solid #1de9b6;
+  border-radius: 6px;
+}
+
+/* removing bulletins of sidebar nav links */
+.side_links ul li {
+  list-style-type: none;
+}
+.side_categories ul li {
+  list-style-type: none;
+}
+
+/* Sidebar Categories */
+/* Sidebar category heading */
+.category_heading {
+  font-size: 15px;
+  color: #888;
+  border-bottom: 2px solid #222;
+  margin-left: 20px;
+}
+
+/* Sidebar Categories links */
+.side_categories ul {
+  padding: 0px;
+}
+
+/* remove line and add font color to links */
+.side_categories ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Spacing the Sidebar categories */
+.side_categories li {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+
+/* Hover effect for side bar categories */
+.side_categories li:hover {
+  background: #1a1f2e;
+  color: #1de9b6;
+  border-left: 5px solid #1de9b6;
+  border-radius: 6px;
+}
+
+/*Top Nav Bar - - - - - */
+
+/*Full Topbar*/
+.topbar {
+  height: 14px;
+  background: #12192b;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+/* Social icons inside topbar */
+.topbar_socials a {
+  margin-left: 18px;
+  color: #e6e6e6;
+  transition: 0.3s;
+}
+/* Hover effect for social links */
+.topbar_socials a:hover {
+  color: #1de9b6;
+}
+
+/* Support Banner- - - - - */
+.support_banner {
+    display: flex;
+    height: 38vh;
+    margin-left: 250px;
+}
+
+/* Left side image */
+.support_left img {
+    margin-top: 65px;
+    height: 50%;
+    width: 110%;
+}
+
+/* Right side details */
+.support_right {
+    margin-left: 180px;
+}
+
+/* Support Details*/
+.details_section{
+   margin-top: 25px;       
+}
+
+/* item heading and text styled*/
+.detail_item h3 {
+    font-size: 16px;              
+    color: #1de9b6;
+}
+.detail_item p {
+    font-size: 16px;               
+    color: #ccc;
+}
+
+/* AI Support Section - - - - - */
+.ai_support_section {
+    margin-left: 250px;
+    margin-right: 60px;
+    margin-top: 80px;
+    background: #12192b;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* AI profile */
+.ai_profile {
+  display: flex;
+}
+
+/* Ai Profile Image */
+.ai_profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Ai Icon */
+.ai_header span {
+    background: #1de9b6;
+    color: #111;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* Heading */
+.ai_header h1 {
+    font-size: 48px;
+    color: #1de9b6;
+}
+
+/* Description */
+.ai_header p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* Question Input Bar */
+.ai_input_bar {
+    margin-bottom: 50px;
+}
+
+/* textbox */
+.ai_input_bar input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e6e6e6;
+    color: #111;
+    font-size: 16px;
+}
+
+/* search button */
+.ai_input_bar span {
+    padding: 11px;
+    border-radius: 8px;
+    background: #1de9b6;
+    color: #111;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* hover effect for the search button  */
+.ai_input_bar span:hover {
+    background: #00ffe0;
+}
+
+/* Support Options Buttons */
+.ai_options p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* choose buttons */
+.options_row span {
+    background: #1de9b6;
+    color: #111;
+    border-radius: 8px;
+    padding-top: 10px;   
+    padding-right: 20px; 
+    padding-bottom: 10px;
+    padding-left: 20px;   
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* hover for button */
+.options_row span:hover {
+    background: #00ffe0;
+}
+
+/* Ongoing Discussions Section - - - - - */
+.discussions_section {
+  margin-left: 250px;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+/* Discussion heading */
+.discussions_section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #1de9b6;
+  margin-bottom: 40px;
+}
+
+/* row containing the cards */
+.discussions_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* discussions each Card */
+.discussion_card {
+  padding: 15px;
+  border-radius: 12px;
+  width: 75%;
+  background-color: #12192b;
+  transition: 0.3s;
+}
+
+/* hover for discussion card */
+.discussion_card:hover {
+  box-shadow: 0 0 12px #1de9b6;
+}
+
+/* card heading */
+.discussion_card h3 {
+  font-size: 18px;
+  color: #e6e6e6;
+  margin-bottom: 10px;
+}
+
+/* card text */
+.discussion_card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/* status Info */
+.discussion_status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; 
+  font-size: 13px;
+}
+
+/* colours for the status */
+.status_open {
+ color: #00aaff;
+ font-weight: bold;
+}
+.status_popular {
+  color: #ffa500;
+   font-weight: bold;
+}
+.status_solved {
+  color: #00ff80;
+   font-weight: bold;
+}
+
+/* FAQ Section- - - - -*/
+.faq_section {
+  margin-left: 250px;
+  margin-right: 50px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  max-width: 900px;
+}
+
+.faq_section h2 {
+  color: #1de9b6;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* Each FAQ Item card */
+.faq_item {
+  margin-bottom: 20px;
+  background: #111;
+  border-left: 4px solid #1de9b6;
+  border-radius: 8px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+/* Hover effect on FAQ Item */
+.faq_item:hover {
+  background: #12192b;
+  border-left-color: #fff;
+}
+
+/* Question */
+.faq_question {
+  font-size: 18px;
+  color: #1de9b6;
+  font-weight: 600;
+}
+
+/* Answer*/
+.faq_answer {
+  padding:20px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.faq_answer p {
+  margin: 0;
+  color: #e6e6e6;
+}
+
+/* Footer section- - - - -*/
+
+.footer_section {
+  margin-left: 180px;
+  background: #12192b;
+  padding: 40px;
+}
+
+/* Footer containing all */
+.footer_body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+/*Brand*/
+
+/* Description */
+.footer_brand p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+/* Image - Logo */
+.footer_brand img {
+  width: 100%;
+}
+
+/* Footer links - quick links */
+
+/* heading */
+.footer_links h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/* overall links */
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each links */
+.footer_links ul li {
+  margin-bottom: 8px;
+}
+
+.footer_links ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* Links Hover */
+.footer_links ul li a:hover {
+  color: #1de9b6;
+}
+
+/* Footer links - Support */
+
+/* Footer support heading */
+.footer_support h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/* overall Links */
+.footer_support ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each Links */
+.footer_support ul li {
+  margin-bottom: 8px;
+}
+
+.footer_support ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* Hover for the Links */
+.footer_support ul li a:hover {
+  color: #1de9b6;
+}
+
+/* Footer - social links */
+
+/* Footer social heading */
+.footer_social h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/*Social Fa Icons */
+.social_icons a {
+  color: #ccc;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+/* Social Icons Hover */
+.social_icons a:hover {
+  color: #1de9b6;
+}
+
+/*Footer Bottom*/
+.footer_bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #222;
+  font-size: 14px;
+  color: #666;
+}
+
+/* For the logo name */
+.footer_bottom span {
+  color: #1de9b6;
+  font-weight: bold;
+}

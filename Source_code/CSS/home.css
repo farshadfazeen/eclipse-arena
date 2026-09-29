@@ -1,0 +1,681 @@
+/* The full web page - - - - - */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #0a0f1a; 
+  color: #e6e6e6;  /*Side Bar texts*/
+}
+
+/*Side Nav Bar - - - - - */
+
+/*Full Sidebar*/
+.Sidebar {
+  position: fixed;
+  height: 100%;
+  background: #12192b; 
+  font-weight: bolder;
+}
+
+/*Logo (Image)*/
+.side_logo img {
+  width: 175px;
+  padding: 5px;
+}
+
+/*Sidebar Navigation Links*/
+.side_links ul {
+  padding: 0px;
+}
+
+/* remove line and add font color to links */
+.side_links ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Spacing Sidebar Links */
+.side_links li {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+/* Hover effect for Sidebar links */
+.side_links li:hover{
+  background: #1a1f2e;
+  color: #1de9b6;
+  border-left: 5px solid #1de9b6;
+  border-radius: 6px;
+}
+
+/* removing bulletins of sidebar nav links */
+.side_links ul li {
+  list-style-type: none;
+}
+.side_categories ul li {
+  list-style-type: none;
+}
+
+/* Sidebar Categories */
+/* Sidebar category heading */
+.category_heading {
+  font-size: 15px;
+  color: #888;
+  border-bottom: 2px solid #222;
+  margin-left: 20px;
+}
+
+/* Sidebar Categories links */
+.side_categories ul {
+  padding: 0px;
+}
+
+/* remove line and add font color to links */
+.side_categories ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Spacing the Sidebar categories */
+.side_categories li {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+
+/* Hover effect for side bar categories */
+.side_categories li:hover {
+  background: #1a1f2e;
+  color: #1de9b6;
+  border-left: 5px solid #1de9b6;
+  border-radius: 6px;
+}
+
+/*Top Nav Bar - - - - - */
+
+/*Full Topbar*/
+.topbar {
+  height: 14px;
+  background: #12192b;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+/* Social icons inside topbar */
+.topbar_socials a {
+  margin-left: 18px;
+  color: #e6e6e6;
+  transition: 0.3s;
+}
+/* Hover effect for social links */
+.topbar_socials a:hover {
+  color: #1de9b6;
+}
+
+/* Top game selling Section - - - - -*/
+
+/* Landing Page Section */
+.topgame_section {
+  margin-left: 180px;
+  margin-top: 5px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  gap: 20px;
+
+  background-image: url('../Resources/Images/Others/COD_BG_HOME.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Game card */
+.topgame_card {
+  width: 180px;
+  height: 250px;
+}
+
+/* Image in the game card */
+.topgame_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* texts next to the game card */
+.topgame_info {
+  color: #e6e6e6;
+}
+
+/* Heading text - game title  */
+.topgame_info h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #e6e6e6;
+}
+
+/* p tag - game description */
+.topgame_info p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+/* game price */
+.price {
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+
+/* game purchase button */
+.buy_btn {
+  background: #000;
+  color: #e6e6e6;
+  font-size: 13px;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  transition: 0.3s;
+}
+
+/* Hover effect for the purchase button */
+.buy_btn:hover {
+  background: #1de9b6;
+  color: #111;
+}
+
+/* Category Section - - - - -  */
+
+/*home category section*/
+.category_section {
+  margin-left: 180px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* heading on top of the categories */
+.category_heading2 {
+  color: #1de9b6;
+  font-size: 28px;
+}
+
+/* Category cards row */
+.category_body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* each categories */
+.category_card {
+  background: #111;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Hover effect for category cards */
+.category_card:hover {
+  background: #12192b;
+}
+
+/* Category image */
+.category_card img {
+  width: 100%;
+}
+
+/* Category navigation link */
+.category_card span {
+  font-weight: bold;
+  color: #e6e6e6;
+}
+
+/* Featured section- - - - -*/
+.Featured_section {
+  margin-left: 180px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+/* Featured section - best sellers and new arrivals heading */
+.Featured_section h2 {
+  color: #1de9b6;
+  font-size: 28px;
+}
+
+/* Row of cards - single row */
+.Featured_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Each product card */
+.Featured_card {
+  position: relative;
+  height: 250px;
+  transition: 0.3s
+}
+
+/* Product Card Hover */
+.Featured_card:hover {
+  box-shadow: 0 0 15px #1de9b6;
+}
+
+/* Game Image in Card */
+.Featured_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Price tag overlay at bottom of image */
+.price_tag {
+  position: absolute;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.675);
+  color: #e6e6e6;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+/* Discount section- - - - -*/
+.discount_section {
+  margin-left: 180px;
+  padding:40px;
+  background: #12192b;
+}
+
+/* heading discount */
+.discount_banner h2 {
+  font-size: 28px;
+  color: #1de9b6;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* discount row cointaining the cards */
+.discount_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/* Each discount card */
+.discount_card {
+  background: #111;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.discount_card:hover {
+  box-shadow: 0 0 15px #1de9b6;
+  background: #0f1c2a;
+}
+
+.discount_card img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+/* Discount label */
+.discount_label {
+  background: #111;
+  color: #e6e6e6;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Price */
+.price {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price .original_lkr {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.price .discounted_lkr {
+  color: #1de9b6;
+}
+
+/* freeplay section- - - - - */
+
+.freeplay_section {
+  margin-left: 180px;
+  padding: 40px;
+}
+
+/* Free play Heading */
+.freeplay_section h2 {
+  color: #1de9b6;
+  font-size: 28px;
+}
+
+/* play now games section row */
+.freeplay_row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+/* Each Game cards */
+.freeplay_card {
+  background: #111;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+/* Hover effect of each free play games card */
+.freeplay_card:hover {
+  box-shadow: 0 0 15px #1de9b6;
+}
+
+/* Games image in freeplay section */
+.freeplay_card img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+/* Play Now button */
+.Play_btn {
+  background: #000;
+  font-size: 13px;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  transition: 0.3s;
+}
+
+/* play button hover effect */
+.Play_btn:hover {
+  background: #1de9b6;
+  color: #111;
+}
+
+/* Game Updates Section - - - - -*/
+.Game_Updates_section {
+  margin-left: 180px;
+  padding: 40px;
+}
+
+/* game update heading */
+.Game_Updates_section h2 {
+  color: #1de9b6;
+  font-size: 28px;
+}
+
+/* Row containing all the cards */
+.Game_Updates_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Individual cards */
+.Updates_card {
+  background: #111;
+  border-radius: 10px;
+}
+
+/* images in the card */
+.Updates_card img {
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* game update texts */
+.Updates_info {
+  padding: 15px;
+  color: #e6e6e6;
+  position: relative;
+  height: 150px;
+}
+
+/* game update title */
+.Updates_info h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #1de9b6;
+}
+
+/* game update description */
+.Updates_info p {
+  font-size: 13px;
+  color: #ccc;
+}
+
+/* read more link */
+.Updates_info a {
+  position: absolute;
+  bottom: 15px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #1de9b6;
+  transition: 0.3s;
+}
+
+/* hover for the read more  */
+.Updates_info a:hover {
+  color: #ffffff;
+}
+
+/* Signup Section- - - - -*/
+
+.Signup_section {
+  margin-left: 180px;
+  padding: 40px;
+  text-align: center;
+
+  background-image: url('../Resources/Images/Others/Signup_BG.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+/*Signup section body*/
+.Signup_content {
+  margin-left: 90px;
+  max-width: 600px;
+  background: #000000bf;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #1de9b6;
+}
+
+/* Heading */
+.Signup_content h2 {
+  font-size: 28px;
+  color: #1de9b6;
+  margin-bottom: 15px;
+}
+
+/* Description */
+.Signup_content p {
+  font-size: 15px;
+  color: #ccc;
+}
+
+/* Email Input field */
+.Signup_form input {
+  border-radius: 6px;
+  font-size: 14px;
+  padding-top: 07px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 07px;
+}
+
+/* Subscribe button */
+.submit_btn {
+  background: #1de9b6;
+  color: #111;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 07px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 07px;
+  transition: 0.3s;
+}
+
+/* Hover effect for the submit button */
+.submit_btn:hover {
+  background: #00ffe0;
+}
+
+/* Footer section- - - - -*/
+
+.footer_section {
+  margin-left: 180px;
+  background: #12192b;
+  padding: 40px;
+}
+
+/* Footer containing all */
+.footer_body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+/*Brand*/
+
+/* Description */
+.footer_brand p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+/* Image - Logo */
+.footer_brand img {
+  width: 100%;
+}
+
+/* Footer links - quick links */
+
+/* heading */
+.footer_links h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/* overall links */
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each links */
+.footer_links ul li {
+  margin-bottom: 8px;
+}
+
+.footer_links ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* Links Hover */
+.footer_links ul li a:hover {
+  color: #1de9b6;
+}
+
+/* Footer links - Support */
+
+/* Footer support heading */
+.footer_support h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/* overall Links */
+.footer_support ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each Links */
+.footer_support ul li {
+  margin-bottom: 8px;
+}
+
+.footer_support ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* Hover for the Links */
+.footer_support ul li a:hover {
+  color: #1de9b6;
+}
+
+/* Footer - social links */
+
+/* Footer social heading */
+.footer_social h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/*Social Fa Icons */
+.social_icons a {
+  color: #ccc;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+/* Social Icons Hover */
+.social_icons a:hover {
+  color: #1de9b6;
+}
+
+/*Footer Bottom*/
+.footer_bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #222;
+  font-size: 14px;
+  color: #666;
+}
+
+/* For the logo name */
+.footer_bottom span {
+  color: #1de9b6;
+  font-weight: bold;
+}

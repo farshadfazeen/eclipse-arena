@@ -1,0 +1,502 @@
+/* The full web page - - - - - */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #0a0f1a; 
+  color: #e6e6e6;  /*Side Bar texts*/
+}
+
+/*Side Nav Bar - - - - - */
+
+/*Full Sidebar*/
+.Sidebar {
+  position: fixed;
+  height: 100%;
+  background: #12192b; 
+  font-weight: bolder;
+}
+
+/*Logo (Image)*/
+.side_logo img {
+  width: 175px;
+  padding: 5px;
+}
+
+/*Sidebar Navigation Links*/
+.side_links ul {
+  padding: 0px;
+}
+
+/* remove line and add font color to links */
+.side_links ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Spacing Sidebar Links */
+.side_links li {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+/* Hover effect for Sidebar links */
+.side_links li:hover{
+  background: #1a1f2e;
+  color: #1de9b6;
+  border-left: 5px solid #1de9b6;
+  border-radius: 6px;
+}
+
+/* removing bulletins of sidebar nav links */
+.side_links ul li {
+  list-style-type: none;
+}
+.side_categories ul li {
+  list-style-type: none;
+}
+
+/* Sidebar Categories */
+/* Sidebar category heading */
+.category_heading {
+  font-size: 15px;
+  color: #888;
+  border-bottom: 2px solid #222;
+  margin-left: 20px;
+}
+
+/* Sidebar Categories links */
+.side_categories ul {
+  padding: 0px;
+}
+
+/* remove line and add font color to links */
+.side_categories ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Spacing the Sidebar categories */
+.side_categories li {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+
+/* Hover effect for side bar categories */
+.side_categories li:hover {
+  background: #1a1f2e;
+  color: #1de9b6;
+  border-left: 5px solid #1de9b6;
+  border-radius: 6px;
+}
+
+/*Top Nav Bar - - - - - */
+
+/*Full Topbar*/
+.topbar {
+  height: 14px;
+  background: #12192b;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+/* Social icons inside topbar */
+.topbar_socials a {
+  margin-left: 18px;
+  color: #e6e6e6;
+  transition: 0.3s;
+}
+/* Hover effect for social links */
+.topbar_socials a:hover {
+  color: #1de9b6;
+}
+
+/* About page banner on top- - - - -*/
+
+.about_banner {
+    display: flex;
+    height: 38vh;
+    margin-left: 180px;
+    padding: 40px;
+}
+
+/* image on left of the banner  */
+.about_left img {
+    height: 85%;
+    width: 95%;
+    margin-bottom: 05%;
+}
+
+/* Right Side - Quick Stats */
+.about_right {
+    margin-left: 45px;
+}
+
+/* Stats in the left of banner */
+.quick_stats {
+    display: flex;
+    gap: 40px;
+}
+
+/* Stats numbers */
+.stats h2 {
+    font-size: 40px;
+    color: #1de9b6;
+    margin-bottom: 5px;
+}
+
+/* Stats detail */
+.stats p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Story+Mission - - - - -*/
+.Story_Mission {
+    display: flex;
+    max-width: 800px;
+    margin-left: 250px;
+    background-color: #111;
+}
+
+/* Each Card (Story + Mission) */
+/*Story section*/
+.our_story {
+    border-radius: 12px;
+    padding: 30px;
+    transition: 0.3s;
+    border-left: 5px solid #1de9b6;
+}
+
+/* hover efect for story section */
+.our_story:hover {
+    background: #12192b;
+    border-left-color: #fff;
+}
+
+/* heading of story */
+.our_story h2 {
+    font-size: 26px;
+    color: #1de9b6;
+    margin-bottom: 15px;
+}
+
+/* paragraph under story  */
+.our_story p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #e6e6e6;
+}
+
+/* Our Mission section ----------*/
+.Our_mission {
+    border-radius: 12px;
+    padding: 30px;
+    transition: 0.3s;
+    border-left: 5px solid #1de9b6;
+}
+
+/* hover efect for our mission section */
+.Our_mission:hover {
+    background: #12192b;
+    border-left-color: #fff;
+}
+
+/* heading of our mission */
+.Our_mission h2 {
+    font-size: 26px;
+    color: #1de9b6;
+    margin-bottom: 15px;
+}
+
+/* paragraph under our mission  */
+.Our_mission p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #e6e6e6;
+}
+
+/* Team Section- - - - -*/
+.team_row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/* Team heading */
+.team_section h2 {
+    font-size: 32px;
+    color: #1de9b6;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/* Team Card */
+.team_card {
+    background: #12192b;
+    border-radius: 12px;
+    padding: 15px;
+    width: 200px;
+    height: 375px;
+}
+
+/* Images inside team card */
+.team_card img {
+    border-radius: 100%;
+    width: 97%;
+    height: 75%;
+}
+
+/* team name */
+.team_info h4 {
+    font-size: 20px;
+    color: #1de9b6;
+    margin-bottom: 4px;
+}
+
+/* team role */
+.team_info p {
+    font-size: 14px;
+    color: #e6e6e6;
+}
+
+/* Core Values / Why Choose Us- - - - -*/
+.values_section {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/* Values section heading */
+.values_section h2 {
+    color: #1de9b6;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+/* Values section row */
+.values_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* each value card */
+.value_item {
+    background: #12192b;
+    padding: 20px;
+    width: 150px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+/* Value fa icons */
+.value_item i {
+    font-size: 28px;
+    color: #1de9b6;
+    margin-bottom: 10px;
+}
+
+/* Value heading */
+.value_item h4 {
+    margin: 10px 0;
+    color: #1de9b6;
+}
+
+/* Value detail */
+.value_item p {
+    font-size: 14px;
+    color: #e6e6e6;
+    line-height: 1.5;
+}
+
+/* Testimonials- - - - - */
+.testimonials_section {
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* testimonial heading */
+.testimonials_section h2 {
+    color: #1de9b6;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+/* Each testimonials */
+.testimonial_card {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    background: #12192b;
+    padding: 20px;
+    border-radius: 12px;
+    width: 70%;
+}
+
+/* customer profile in testimonials */
+.testimonial_card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Testimonial Customer Name */
+.testimonial_card h4 {
+    color: #1de9b6;
+    font-size: 14px;
+}
+
+/* message in testimonials */
+.testimonial_card p {
+    color: #e6e6e6;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Footer section- - - - -*/
+
+.footer_section {
+  margin-left: 180px;
+  background: #12192b;
+  padding: 40px;
+}
+
+/* Footer containing all */
+.footer_body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+/*Brand*/
+
+/* Description */
+.footer_brand p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+/* Image - Logo */
+.footer_brand img {
+  width: 100%;
+}
+
+/* Footer links - quick links */
+
+/* heading */
+.footer_links h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/* overall links */
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each links */
+.footer_links ul li {
+  margin-bottom: 8px;
+}
+
+.footer_links ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* Links Hover */
+.footer_links ul li a:hover {
+  color: #1de9b6;
+}
+
+/* Footer links - Support */
+
+/* Footer support heading */
+.footer_support h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/* overall Links */
+.footer_support ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each Links */
+.footer_support ul li {
+  margin-bottom: 8px;
+}
+
+.footer_support ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* Hover for the Links */
+.footer_support ul li a:hover {
+  color: #1de9b6;
+}
+
+/* Footer - social links */
+
+/* Footer social heading */
+.footer_social h3 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #222;
+  color: #1de9b6;
+}
+
+/*Social Fa Icons */
+.social_icons a {
+  color: #ccc;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+/* Social Icons Hover */
+.social_icons a:hover {
+  color: #1de9b6;
+}
+
+/*Footer Bottom*/
+.footer_bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #222;
+  font-size: 14px;
+  color: #666;
+}
+
+/* For the logo name */
+.footer_bottom span {
+  color: #1de9b6;
+  font-weight: bold;
+}
